@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Site de Roupas</title>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="adaptaveis.css">
+  <link rel="shortcut icon" type="image/png" href="/laranja/dress.png" />
+
+</head>
+
+<body>
+
+  <header>
+    <!--botao do menu hamburguer -->
+    <div class="mobile-menu" onclick="clickmenu()">
+      <div id="line1"></div>
+      <div id="line2"></div>
+      <div id="line3"></div>
+    </div>
+    <div>
+      <img src="laranja/logo.png" alt="logo" id="iniciar">
+    </div>
+
+    <!-- cronometro-->
+    <div class="timer" id="temporizador">
+
+      <div class="timer- dias">
+        <p class="texto" id="dias">0</p>
+        <span>dias</span>
+      </div>
+
+      <div class="timer- horas">
+        <p class="texto" id="horas">0</p>
+        <span>horas</span>
+      </div>
+
+      <div class="timer- minutos">
+        <p class="texto" id="minutos">0</p>
+        <span>minutos</span>
+      </div>
+
+      <div class="timer- segundos">
+        <p class="texto" id="segundos">0</p>
+        <span>segundos</span>
+      </div>
+      
+    </div>
+  </header>
+   
+    <div id="cabeca2"><p>Bem vindo(a) ao Moda Suit Girls e descubra nossa coleção de roupas femininas.</p></div>
+  
+
+
+  <body>
+    <div>
+      <div class="timer-mobile" id="temporizador">
+
+        <div class="timer- dias">
+          <p class="texto" id="diass">0</p>
+          <span>dias</span>
+        </div>
+
+        <div class="timer- horas">
+          <p class="texto" id="horass">0</p>
+          <span>horas</span>
+        </div>
+
+        <div class="timer- minutos">
+          <p class="texto" id="minutoss">0</p>
+          <span>minutos</span>
+        </div>
+
+        <div class="timer- segundos">
+          <p class="texto" id="segundoss">0</p>
+          <span>segundos</span>
+        </div>
+      </div>
+      <!-- barra de navegaçao do pc -->
+      <nav class="nav-pc">
+        <ul>
+          <li><a href="#iniciar">Home</a></li>
+          <li><a href="#historia">Sobre</a></li>
+          <li><a href="#slider">Promoções</a></li>
+          <li><a href="#produtos">Produtos</a></li>
+          <li><a href="#contatos">Contato</a></li>
+        </ul>
+      </nav>
+      <!-- menu mobile -->
+      <menu id="menu-mobile">
+        <ul>
+          <li><a href="#iniciar">Home</a></li>
+          <li><a href="#historia">Sobre</a></li>
+          <li><a href="#slider">Promoções</a></li>
+          <li><a href="#produtos">Produtos</a></li>
+          <li><a href="#contatos">Contato</a></li>
+        </ul>
+      </menu>
+
+      <div class="slider" id="slider">
+        <!-- botao de radio para a troca de slides -->
+        <div class="slides">
+          <input type="radio" name="btp" id="slide1">
+          <input type="radio" name="btp" id="slide2">
+          <input type="radio" name="btp" id="slide3">
+          <!-- as fotos do slide -->
+          <div class="slide s1" id="s1">
+            <img src="laranja/vestido11.png" alt="vestido1">
+          </div>
+
+          <div class="slide">
+            <img src="laranja/vestido22.png" alt="vestido2">
+          </div>
+
+
+          <div class="slide">
+            <img src="laranja/vestido33.png" alt="vestido3">
+          </div>
+
+        </div>
+
+        <div class="navegarslides">
+          <div class="autobar"></div>
+          <div class="autobar"></div>
+          <div class="autobar"></div>
+        </div>
+
+        <!-- trocar as fotos dos slides manualmente -->
+        <div class="navegarslide" id="navegarslide">
+          <label class="bar" for="slide1"></label>
+          <label class="bar" for="slide2"></label>
+          <label class="bar" for="slide3"></label>
+        </div>
+
+      </div>
+
+      <main>
+
+        <div class="conteudo">
+
+
+          <div id="calca">
+            <img
+              src="https://static.zattini.com.br/produtos/calca-jeans-sawary-skinny-elastano-cintura-alta-feminina/08/E69-2870-008/E69-2870-008_zoom1.jpg?ts=1695699474?ims=1088x"
+              alt="calça" width="100px">
+            <p id="produto"> calça legal </p>
+            <p id="valor">R$ 100,00 </p>
+
+
+
+          </div>
+          <div id="camisa">
+            <img
+              src="https://static.zattini.com.br/produtos/kit-3-blusa-feminina-camiseta-lisa-basica-algodao-camisa-baby-look-blusas/06/70P-0035-306/70P-0035-306_zoom4.jpg?ts=1673361279?ims=1088x"
+              alt="camisa" width="100px">
+            <p id="produto"> camisa legal </p>
+            <p id="valor">R$ 75,00 </p>
+          </div>
+          <div id="moleton">
+            <img
+              src="https://static.zattini.com.br/produtos/kit-2-blusa-moletom-canguru-com-capuz-liso-sem-estampa-unissex-feminino-masculino-adulto-blusas/72/46D-0112-172/46D-0112-172_zoom1.jpg?ts=1714134384?ims=1088x"
+              alt="moleton" width="100px">
+            <p id="produto"> moleton legal </p>
+            <p id="valor">R$ 125,00 </p>
+          </div>
+          <div id="bota">
+            <img
+              src="https://static.zattini.com.br/produtos/bota-feminina-gigil-salto-grosso-bico-fino-elastico/06/NQZ-0257-006/NQZ-0257-006_zoom1.jpg?ts=1694667192?ims=1088x"
+              alt="bota" width="100px">
+            <p id="produto"> bota legal </p>
+            <p id="valor">R$ 200,00 </p>
+          </div>
+          <div id="shorts">
+            <img
+              src="https://static.zattini.com.br/produtos/shorts-feminino-juvenil-rovitex-teen-cinza/10/4YH-1014-010/4YH-1014-010_zoom1.jpg?ts=1695134348?ims=1088x"
+              alt="shorts" width="100px">
+            <p id="produto"> shorts legal </p>
+            <p id="valor">R$ 65,00 </p>
+          </div>
+          <div id="bolsa">
+            <img
+              src="https://static.zattini.com.br/produtos/bolsa-feminina-willibags-linda-com-alca-removivel-transversal/06/4A8-0007-006/4A8-0007-006_zoom1.jpg?ts=1690149353?ims=1088x"
+              alt="bolsa" width="100px">
+            <p id="produto"> bolsa legal </p>
+            <p id="valor">R$ 250,00 </p>
+          </div>
+
+        </div>
+          <!-- historia o site -->
+        <div class="sobre" id="historia">
+         <h2>Historia da loja</h2>
+         <p>Havia uma pequena rua no coração da cidade, onde o ritmo do cotidiano se misturava com a criatividade e o estilo. No número 27, 
+          uma loja peculiar chamada "Moda suit Girls" destacava-se não apenas pela sua fachada vibrante, mas principalmente pela 
+          tmosfera acolhedora que envolvia quem ousasse adentrar.</p>
+<br>
+         <p>O interior era um verdadeiro labirinto de cores e texturas. Cada peça de roupa, cuidadosamente selecionada pela proprietária, 
+          Dona Helena, contava uma história única. Desde os vestidos esvoaçantes que pareciam capturar a brisa do mar até os casacos que 
+          evocavam a nostalgia dos anos dourados, cada item tinha o poder de transformar não apenas a aparência, mas também o estado de 
+          espírito de quem o vestia.</p>
+        </div>
+        <div class="sobre" id="missao">
+          <h3>Missão</h3>
+       <p>Na loja de moda feminina "Moda suit Girls", nossa missão é empoderar mulheres através da moda, oferecendo peças que não apenas realcem sua beleza exterior, mas também celebrem sua individualidade e estilo único. Acreditamos que cada mulher é uma obra-prima e merece se sentir confiante e inspirada em todas as ocasiões.
+</p>
+
+<p>
+        Nosso compromisso é proporcionar uma experiência de compra excepcional, onde cada cliente é recebida com calorosa hospitalidade e assistência personalizada. Valorizamos a qualidade em cada detalhe, desde a seleção cuidadosa das peças até o atendimento atencioso e profissional.</p>
+        </div>
+
+        <!-- formulario-->
+
+      
+      </main>
+
+
+      <script src="script.js"></script>
+
+      <footer id="contatos">
+
+        <div class="container">
+          <div class="links">
+          <ul id="github-pc">
+              <li> <a id="github" href="https://github.com/HigorLegal" target="_blank">
+                  <ion-icon name="logo-github" size="large"></ion-icon> HigorLegal</a></li>
+                  <li> <a id="linkedin" href="https://www.linkedin.com/in/higor-da-silva-4ab854289/" target="_blank">
+                    <ion-icon name="logo-linkedin" size="large"></ion-icon> Higor</a></li>
+            </ul>
+            </div>
+  <div class="formulario">
+          <div id="nomecima"></div>
+          <form id="gmail" action="https://formsubmit.co/entonydias07@gmail.com" method="POST">
+            <p>Acompanhe as novidades e promoções:</p>
+            <input type="text" name="name" placeholder="Digite seu nome" required>
+            <input type="email" name="email" placeholder="Digite seu e-mail" required>
+
+            <button type="submit">ENVIAR</button>
+
+            <input id="" type="hidden" name="message" value="mais um otario mandou o gmail no site :)">
+            <input type="hidden" name="_subject" value="site de roupas">
+            <input type="text" name="_honey" style="display:none">
+
+
+          </form>
+</div>
+          <div class="links">
+            <ul id="github-mobile">
+              <li> <a id="github" href="https://github.com/HigorLegal" target="_blank">
+                  <ion-icon name="logo-github" size="large"></ion-icon> HigorLegal</a></li>
+                  <li> <a id="linkedin" href="https://www.linkedin.com/in/higor-da-silva-4ab854289/" target="_blank">
+                    <ion-icon name="logo-linkedin" size="large"></ion-icon> Higor</a></li>
+            </ul>
+            <ul>
+              <li> <a id="github" href="https://github.com/EntonyDias" target="_blank">
+                    <ion-icon name="logo-github" size="large"></ion-icon> EntonyDias</a></li> 
+              <li> <a id="linkedin" href="https://www.linkedin.com/in/higor-da-silva-4ab854289/" target="_blank">
+                  <ion-icon name="logo-linkedin" size="large"></ion-icon>Entony</a></li>
+
+            </ul>
+            <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+            <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+          </div>
+        </div>
+        <p>&copy; 2024 Moda Suit Girls. Todos os direitos reservados.</p>
+    </div>
+    </footer>
+
+    <script>
+
+    </script>
+  </body>
+
+</html>

@@ -1,0 +1,325 @@
+@import url("https://fonts.googleapis.com/css2?family=BIZ+UDGothic&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  color:#00aeff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+body {
+  overflow-x:hidden ;
+  background: linear-gradient(to bottom, #929191,rgb(0, 0, 0));
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #000000;
+  color: #ff00f2;
+  padding-inline: 16px;
+  z-index: 1000;
+  position: sticky;
+  width: 100vw;
+}
+header img {
+  width: 300px;
+  height: 130px;
+}
+
+#cabeca2 p{
+  text-align: center;
+  color: #9a39db;
+  background-color: black;
+  width: 100%;
+}
+
+/* botao para a conversão para dispositivos mobiles */
+
+.mobile-menu {
+  margin-top: 40px;
+  margin-left: 10px;
+  width: 20px;
+  height: 20px;
+  display: none;
+  background-color: rgb(61, 61, 61);
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.mobile-menu div {
+  opacity: 1;
+  width: 15px;
+  height: 2px;
+  background: #fff;
+  margin: 3px;
+  transition: 0.3s;
+}
+/* barra lateral menu hamburguer*/
+#menu-mobile {
+  background-color: rgb(0, 0, 0);
+  top: 0px;
+  position: fixed;
+  padding: 10px;
+  width: 110px;
+  height: 500vh;
+  float: left;
+}
+
+#menu-mobile ul li {
+  height: 110px;
+}
+#menu-mobile ul {
+  margin-top: 90px;
+  background-color: rgb(0, 0, 0);
+  top: 35px;
+  display: block;
+  position: fixed;
+  width: 110px;
+  height: 100vh;
+  float: left;
+}
+#menu-mobile {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+#menu-mobile {
+  display: none;
+}
+
+#nav-pc {
+  display: none;
+}
+ul {
+  list-style-type: none;
+}
+
+#menu-mobile li :hover {
+  background-color: #4d4d4d;
+  color: rgb(0, 0, 0);
+}
+
+#menu-mobile > ul > li > a {
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+  text-align: center;
+  background-color: #333;
+  color: aliceblue;
+  border-top: 2px solid rgb(247, 0, 255);
+}
+
+i {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* configurações do footer */
+
+#linkedin {
+  color: rgb(68, 112, 235);
+}
+#github-mobile {
+  display: none;
+}
+
+#github {
+  color: rgb(255, 255, 255);
+}
+
+#linkedin:hover {
+  color: rgb(204, 0, 255);
+}
+#github:hover {
+  color: rgb(204, 0, 255);
+}
+
+footer a {
+  color: #eb8dde;
+}
+
+.container {
+  margin-bottom: 20px;
+  justify-content: center;
+  display: flex;
+}
+footer .links {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row-reverse;
+}
+footer ul {
+  margin-bottom: 10px;
+}
+footer {
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* configurações dos slides */
+
+.slider {
+  overflow: hidden;
+  margin-left: 31%;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.navegarslide {
+  position: absolute;
+  display: flex;
+  padding-left: 170px;
+  margin-top: -8px;
+}
+
+.navegarslides {
+  position: absolute;
+  display: flex;
+  padding-left: 170px;
+  margin-top: -8px;
+}
+
+.autobar {
+  width: 30px;
+  height: 18px;
+  border: 2px solid rgb(241, 157, 241);
+  margin: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.bar {
+  width: 30px;
+  height: 18px;
+  border: 2px solid rgb(128, 0, 139);
+  margin: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.bar:hover {
+  background-color: rgb(128, 0, 139);
+}
+
+.slides input {
+  display: none;
+}
+
+.slides {
+  display: flex;
+  width: 500px;
+  height: 100%;
+}
+
+
+
+
+
+/* configurações do timer */
+
+.timer {
+  flex-direction: row;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.timer > p {
+  font-size: 10px;
+}
+/* timer mobile*/
+.timer-mobile {
+  display: none;
+  flex-direction: row;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.timer-mobile > p {
+  font-size: 10px;
+}
+.texto {
+  font-weight: bold;
+  line-height: 0px;
+  margin: 1rem 2rem;
+}
+
+/* configurações do formulário */
+
+#nomecima {
+  margin: 10px;
+}
+.formulario label {
+  color: #b90db1;
+}
+.formulario button {
+  padding: 5px;
+  margin-top: 20px;
+}
+
+
+main .conteudo div {
+  transition:padding 0.3s ease ;
+  margin-top: 25px;
+  border-radius: 15px;
+  border: solid 2px rgb(0, 0, 0);
+  padding: 40px;
+  
+  background-color: #dfdfdf;
+  display: inline-block;
+}
+#produto{
+  margin-top: 10px;
+}
+#valor{
+  margin-top: 10px;
+  color: rgb(6, 184, 6);
+}
+main .conteudo {
+ font-size: 20px;
+  display: flex;
+  text-align: center;
+  border-radius: 40px;
+  margin-top: 25px;
+  align-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+
+}
+main .sobre {
+  font-size: 17px;
+  text-align: center;
+  margin-top: 25px;
+  color: rgb(187, 185, 185);
+  border-radius: 20px;
+}
+h2,
+h3 {
+  color: #b170d6;
+}
+
+main .formulario {
+  text-align: center;
+  margin-top: 25px;
+  border: solid #363636;
+  color: rgb(61, 61, 61);
+  border-radius: 50px;
+  background-color: rgb(168, 168, 168);
+  height: 150px;
+}
