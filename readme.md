@@ -17,7 +17,7 @@
 - [IDEs e Editores utilizados](#ides-e-editores-utilizados)
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
 
-## Descrição  do Projeto
+## Descrição do Projeto
 Este projeto é um site de venda de roupas femininas que permite aos usuários vizualizar e comprar roupas. O nosso objetivo é empoderar mulheres através da moda, oferecendo peças que não apenas realcem sua beleza exterior, mas também celebrem sua individualidade e estilo único. 
 
 ## Funcionalidades Implementadas 
